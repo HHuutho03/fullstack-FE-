@@ -1,0 +1,40 @@
+.schedule-container {
+  .schedule-all {
+    select {
+      background: transparent;
+      border: none;
+      color: #337ab7;
+      border-bottom: 1px solid #999;
+      font-weight: bold;
+      padding: 3px;
+    }
+  }
+  .schedule-available {
+    margin: 10px 10px;
+    .text-calender {
+      font-weight: 600;
+      font-size: 17px;
+      i {
+        span {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .schedule-available-schedule {
+    button {
+      background: #fff04b;
+      margin-left: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      padding: 5px 5px;
+      border: none;
+      min-width: 140px;
+    }
+    :hover {
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0px 0px 0px 2px #33b0e3 inset;
+    }
+  }
+}

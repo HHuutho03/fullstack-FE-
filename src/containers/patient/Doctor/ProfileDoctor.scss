@@ -1,0 +1,26 @@
+.intro-doctor {
+    display: flex;
+    height: 120px;
+  align-items: center;
+
+    .intro-left {
+      text-align: center;
+      width: 20%;
+      background-size: cover;
+      background: c no-repeat;
+      background-position: center;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      margin: 10px 20px;
+    }
+    .intro-right {
+      width: 80%;
+
+    }
+  }
+  .price{
+    span{
+      padding: 0 10px;
+    }
+  }

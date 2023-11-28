@@ -1,0 +1,163 @@
+.slick-prev{
+    left: -10px !important;
+    z-index: 1000 !important;
+    height: 48px !important;
+    width: 44px !important;
+
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+    &:hover{
+        background: #ececec !important;
+    }
+}
+.slick-prev::before,.slick-next::before{
+    //content: "\f060" !important;
+    font-family: FontAwesome !important;
+    text-align: center !important;
+    color: red !important;
+}
+
+.slick-next{
+    right: -10px !important;
+    z-index: 1000 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+    &:hover{
+        background: #ececec !important;
+    }
+}
+.slick-disabled{
+    display: none !important;
+}
+.section-share{
+    height: 330px;
+
+    &.section-specialty{
+        background: #f5f5f5;
+    }
+    &.section-OutStandingDoctor{
+        background: #f5f5f5;
+        cursor: pointer;
+    }
+    &.section-about{
+        height: 500px;
+        background: #f5f5f5;
+
+    }
+    .section-container{
+        margin: 0 100px;
+        display: flex;
+        flex-direction: column;
+
+        .section-header{
+            height: 60px;
+            margin-bottom: 20px;
+            padding-top: 20px;
+            .title-section{
+                font-size: 22px;
+                font-weight: 600;
+            }
+            .btn-section{
+                float: right;
+                display: block;;
+                padding: 10px 15px;
+                border: none;
+                outline: none;
+                background: #ebebeb;
+                color: black;
+                text-transform: uppercase;
+                &:hover{
+                    background: #f7d800;
+                    color: white;
+                }
+            }
+        }
+        .section-body{
+            .handbook{
+                display: flex !important;
+                .handbook-text{
+                    font-size: 20px;
+                    width: 50%;
+                    margin-left: 10px;
+                    &:hover{
+                     cursor: pointer;  
+                     color:  #95dce5; 
+                    }
+                }
+            }
+
+            .section-customize{
+                padding: 5px;
+                .customize-border{
+                    border: solid 2px #f3e0bf;
+                    .outer-bg{
+                        display: flex ;
+                        justify-content: center ;
+                    }
+                }
+                .text-center{
+                    text-align: center;
+                }
+                .bg-img{
+                    width: 278px;
+                    height: 150px;
+                    background-position: center center !important;
+                    background-repeat: no-repeat !important;
+                    background-size: cover !important;
+                    &.section-specialty{
+                    }
+                    &.section-facility{
+                        width: 150px;
+                        // background-image: url('../../assets/specialty/104922-logo-med-tai-ha-noi--01.png');
+                    }
+                    &.section-OutStandingDoctor{
+                        width: 150px;
+                        margin-left: 80px;
+                        border-radius: 50%;
+                    }
+                    &.section-Handbook{
+                        background-image: url('../../assets/specialty/111633-chi-phi-kham-tam-ly-hn\ \(1\).png');
+                    }
+                }
+            }
+        }
+
+        }
+
+}
+.section-about{
+    .section-about1{
+        margin: 0 100px;
+        .section-about-text{
+            padding: 15px 0;
+            font-size: 22px;
+            font-weight: 600;
+        }
+        .section-about-content{
+            display: flex;
+            gap: 15px;
+            .about-left{
+                width: 60%;
+            }
+            .about-right{
+                font-size: 15px;
+                text-align: justify;
+                width: 40%;
+            }
+        }
+    }
+
+}
+
+.home-footer{
+    height: 60px !important;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    a{
+        text-decoration: none;
+    }
+}
