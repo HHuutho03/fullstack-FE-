@@ -1,6 +1,8 @@
-# Social Media App: Next.js 14, React, TanStack Query, Tailwind
+# fullstack-BA-frontend(express,sql,nodejs,docker,react,axios ...)
 
-[Demo link](https://hhuutho03febookiingcare.vercel.app/home)
+[Demo link homepage](https://hhuutho03febookiingcare.vercel.app/home)
+[Demo link admin](https://hhuutho03febookiingcare.vercel.app/system/user-manage)
+
 
 ## Backend Source
 
