@@ -1,3 +1,26 @@
+# Social Media App: Next.js 14, React, TanStack Query, Tailwind
+
+[Demo link](...)
+
+## Backend Source
+
+The backend source code for this project, you can found in the [backend repository](https://github.com/HHuutho03/fullstack-BA-).
+
+### Set up .env file
+
+```shell
+NEXT_PUBLIC_BASE_URL=
+
+CLOUD_NAME=
+API_KEY=
+API_SECRET=
+```
+
+### Start the app
+
+```shell
+npm run dev
+```
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +89,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+Thanks for visiting my personal project ❤️
